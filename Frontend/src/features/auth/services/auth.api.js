@@ -2,7 +2,7 @@ import axios from "axios"
 
 
 const api = axios.create({
-    baseURL: process.env.VITE_APP_BASE_URL,
+    baseURL: process.env.VITE_APP_BASE_URL||"http://localhost:3000",
     withCredentials: true
 })
 
