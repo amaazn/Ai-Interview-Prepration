@@ -15,7 +15,7 @@ app.use(cookieParser())
 app.use(cors({
   origin: function (origin, callback) {
     const allowedOrigins = [
-      "https://ai-interview-prepration-frontend.onrender.com",
+      "https://ai-interview-prepration-ui.onrender.com",
       "http://localhost:5173"
     ];
     
